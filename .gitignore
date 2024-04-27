@@ -1,0 +1,17 @@
+#
+*.png
+*.gif
+*.log
+*.pt
+**/__pycache__
+
+# dataset
+!dataset/3DMatch/metadata/gt.log
+dataset/depth_correction/data/**
+dataset/indoor/data/**
+
+# generated dataset
+generated_dataset
+
+# readme
+readme.txt
