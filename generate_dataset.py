@@ -45,7 +45,7 @@ diffusion = GaussianDiffusion(
 
 generator = Generator(
     diffusion,
-    '/data/data/3DMatch-RGBD/train', # path to 3DMatch RGB-D training data
+    '/path/to/3DMatch-RGBD/train', # path to 3DMatch RGB-D training data
     batch_size=4,
     ema_decay=0.995,  # exponential moving average decay
     results_folder='./successive_ddnm_diffusion_results',

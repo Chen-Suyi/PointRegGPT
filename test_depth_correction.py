@@ -12,7 +12,7 @@ args = parser.parse_args()
 model = MaskUnet(dim=64, dim_mults=(1, 2, 4, 8))
 
 tester = MaskTester(model,
-                    '/data/data/3DMatch-RGBD/test', # path to 3DMatch RGB-D test set
+                    '/path/to/3DMatch-RGBD/test', # path to 3DMatch RGB-D test set
                     image_size=256,
                     results_folder='./depth_correction_results',
                     samples_folder='./depth_correction_samples')

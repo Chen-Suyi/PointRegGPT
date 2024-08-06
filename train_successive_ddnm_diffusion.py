@@ -25,7 +25,7 @@ diffusion = GaussianDiffusion(
 
 trainer = Trainer(
     diffusion,
-    '/data/data/3DMatch-RGBD/train', # path to 3DMatch RGB-D training data
+    '/path/to/3DMatch-RGBD/train', # path to 3DMatch RGB-D training data
     train_batch_size=32, # required 48GB CUDA memory
     train_lr=8e-5,
     train_num_steps=2000000,  # total training steps 2000000
