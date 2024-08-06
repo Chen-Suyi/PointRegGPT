@@ -44,12 +44,9 @@ Please follow the official [training and testing scenes split](http://vision.pri
               |--... 
 ```
 
-The 3DMatch data for **point cloud registration** can be downloaded from [OverlapPredator](https://github.com/prs-eth/OverlapPredator) by running:
-```
-wget --no-check-certificate --show-progress https://share.phys.ethz.ch/~gsg/pairwise_reg/3dmatch.zip
-```
+The 3DMatch data for **point cloud registration** can be downloaded from [OverlapPredator](https://github.com/prs-eth/OverlapPredator).
 
-Please unzip and put it in `PointRegGPT/dataset/indoor/data`
+Please put it in `PointRegGPT/dataset/indoor/data`
 The data should be organized as follows:
 ```
 --dataset--indoor--metadata
