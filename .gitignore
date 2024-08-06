@@ -15,3 +15,6 @@ generated_dataset
 
 # readme
 readme.txt
+
+# files
+!files/pipeline.png
