@@ -91,7 +91,7 @@ We will provide pre-trained weights on the [releases](https://github.com/Chen-Su
 
 
 ## Quick Start
-To begin with, please set the path to your downloaded 3DMatch RGB-D training data in [`generate_dataset.py#L48`](https://github.com/Chen-Suyi/PointRegGPT/blob/b65742a65321ab52848863fd070d21c32a13a157/generate_dataset.py#L48).
+To begin with, please set the path to your downloaded 3DMatch RGB-D training data in [`generate_dataset.py#L48`](https://github.com/Chen-Suyi/PointRegGPT/blob/df8122300318d03e356fd9abccb00e66a781c2d7/generate_dataset.py#L48).
 
 Use the following commands to create generative data:
 ```
@@ -105,7 +105,7 @@ python generate_gt.py -start=0 -stop=10
 By default, the generated data will be saved in `PointRegGPT/generated_dataset`.
 
 ## Diffusion Model
-Please set the path to your downloaded 3DMatch RGB-D training data in [`train_successive_ddnm_diffusion.py#L28`](https://github.com/Chen-Suyi/PointRegGPT/blob/b65742a65321ab52848863fd070d21c32a13a157/train_successive_ddnm_diffusion.py#L28).
+Please set the path to your downloaded 3DMatch RGB-D training data in [`train_successive_ddnm_diffusion.py#L28`](https://github.com/Chen-Suyi/PointRegGPT/blob/df8122300318d03e356fd9abccb00e66a781c2d7/train_successive_ddnm_diffusion.py#L28).
 
 ### Training
 You can try training your own diffusion model using the following command:  
@@ -147,7 +147,7 @@ python train_depth_correction.py
 By default, the checkpoints and `train.log` will be saved in `PointRegGPT/depth_correction_results`.
 
 ### Testing
-Please set the path to your downloaded 3DMatch RGB-D testing data in [`test_depth_correction.py#L15`](https://github.com/Chen-Suyi/PointRegGPT/blob/b65742a65321ab52848863fd070d21c32a13a157/test_depth_correction.py#L15).
+Please set the path to your downloaded 3DMatch RGB-D testing data in [`test_depth_correction.py#L15`](https://github.com/Chen-Suyi/PointRegGPT/blob/df8122300318d03e356fd9abccb00e66a781c2d7/test_depth_correction.py#L15).
 
 You can qualitatively test a depth correction module on 3DMatch RGB-D test split using the following command:  
 ```
