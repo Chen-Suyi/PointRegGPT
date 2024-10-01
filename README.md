@@ -1,5 +1,5 @@
 # [ECCV 2024] PointRegGPT: Boosting 3D Point Cloud Registration using Generative Point-Cloud Pairs for Training
-This is the Pytorch implementation of our ECCV2024 paper [PointRegGPT](https://arxiv.org/abs/2407.14054).
+This is the Pytorch implementation of our ECCV2024 paper [PointRegGPT](https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/06787.pdf).
 
 ## Introduction
 Data plays a crucial role in training learning-based methods for 3D point cloud registration.
