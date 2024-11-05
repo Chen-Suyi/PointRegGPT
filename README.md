@@ -161,8 +161,17 @@ To load generated data during training, we provide examples in `PointRegGPT/exam
 
 We also provide pre-trained weights on the [releases](https://github.com/Chen-Suyi/PointRegGPT/releases) page, which are trained on our official generative dataset. You can simply load them using the official code of each baseline.
 
-## Citation
-Coming soon.
+## Citations
+```
+@inproceedings{chen2025pointreggpt,
+  author={Chen, Suyi and Xu, Hao and Li, Haipeng and Luo, Kunming and Liu, Guanghui and Fu, Chi-Wing and Tan, Ping and Liu, Shuaicheng},
+  title={PointRegGPT: Boosting 3D Point Cloud Registration using Generative Point-Cloud Pairs for Training},
+  booktitle={European Conference on Computer Vision},
+  pages={272-289},
+  year={2025},
+  organization={Springer}
+}
+```
 
 ## Achnowledgement
 [Denoising Diffusion Probabilistic Model, in Pytorch](https://github.com/lucidrains/denoising-diffusion-pytorch)
