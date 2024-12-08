@@ -173,5 +173,5 @@ We also provide pre-trained weights on the [releases](https://github.com/Chen-Su
 }
 ```
 
-## Achnowledgement
+## Acknowledgement
 [Denoising Diffusion Probabilistic Model, in Pytorch](https://github.com/lucidrains/denoising-diffusion-pytorch)
