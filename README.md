@@ -168,7 +168,7 @@ We also provide pre-trained weights on the [releases](https://github.com/Chen-Su
   title={PointRegGPT: Boosting 3D Point Cloud Registration using Generative Point-Cloud Pairs for Training},
   booktitle={European Conference on Computer Vision},
   pages={272-289},
-  year={2025},
+  year={2024},
   organization={Springer}
 }
 ```
