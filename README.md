@@ -29,6 +29,8 @@ pip install -r requirements.txt
 ```
 
 ## Data Preparation
+*NOTE: Please inform me via issues if the links are expired.*
+
 ### 3DMatch
 The 3DMatch **RGB-D** dataset can be found on [3DMatch: RGB-D Reconstruction Datasets](https://3dmatch.cs.princeton.edu/).
 
